@@ -1,0 +1,19 @@
+{
+  "name": "esamefinale",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "transfer" : "ts-node ./spl_transfer.ts",
+    "mint" : "ts-node ./spl_mint",
+    "createMint" : "ts-node ./spl_init.ts",
+    "keygen": "ts-node ./keygen.ts",
+    "airdrop": "ts-node ./airdrop.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.6"
+  }
+}
